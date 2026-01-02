@@ -3,6 +3,7 @@
 set -e
 
 # ---- CONFIG ----
+#TODO: Allow RETENTION_DAYS to be overidden via environment variable
 RETENTION_DAYS=7
 LOG_DIR="./logs"
 LOG_FILE="$LOG_DIR/backup.log"
