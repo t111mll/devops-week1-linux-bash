@@ -1,0 +1,8 @@
+# Local logs and generated output
+logs/
+test/
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+.vscode/
