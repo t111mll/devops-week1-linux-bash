@@ -61,6 +61,15 @@ The script uses standard Linux utilites such as tar, date, and find to automate 
 - Backup encryption
 
 
+## Scheduling (Cron)
+This script is designed to be run automatically using `cron`.
+
+Example cron entry to run the backup daily at 02:00:
+
+```bash
+0 2 * * * /path/to/backup.sh /source /backup >> /path/to/logs/cron.log 2>&1
+```
+
 ## Author
 Timothy Lowe
 Aspiring DevOps / Cloud Engineer
