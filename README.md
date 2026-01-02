@@ -33,11 +33,13 @@ It is designed to demonstrate Linux fundamentals, shell scripting, and automatio
 git clone <repo-url>
 cd devops-week1-linux-bash
 chmod +x backup.sh
+```
 
 
 ## Usage
 ```bash
 ./backup.sh <source_directory> <backup_directory>
+```
 
 
 ## Configuration
