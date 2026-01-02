@@ -9,10 +9,10 @@ It is designed to demonstrate Linux fundamentals, shell scripting, and automatio
 
 
 ## Architecture / Flow
-1. Validate input directories
-2. Create a compressed backup archive
-3. Write execution logs
-4. Remove backups older than the retention period
+- Validate input directories
+- Create a compressed backup archive
+- Write execution logs
+- Remove backups older than the retention period
 
 
 ## Features
@@ -29,14 +29,14 @@ It is designed to demonstrate Linux fundamentals, shell scripting, and automatio
 
 
 ## Installation
-'''bash
+```bash
 git clone <repo-url>
 cd devops-week1-linux-bash
 chmod +x backup.sh
 
 
 ## Usage
-'''bash
+```bash
 ./backup.sh <source_directory> <backup_directory>
 
 
