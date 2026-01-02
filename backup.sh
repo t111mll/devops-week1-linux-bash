@@ -52,3 +52,6 @@ find "$BACKUP_DIR" -type f -name "backup_*.tar.gz" -mtime +"$RETENTION_DAYS" -ex
 
 echo "Backup created successfully:"
 echo "$BACKUP_DIR/$BACKUP_NAME"
+
+# Log script start explicitly
+#Improve log wording
