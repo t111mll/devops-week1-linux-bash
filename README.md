@@ -59,6 +59,7 @@ The script uses standard Linux utilites such as tar, date, and find to automate 
 - Cron scheduling
 - Email notifications
 - Backup encryption
+- Support configurable retention via environment variable
 
 
 ## Scheduling (Cron)
