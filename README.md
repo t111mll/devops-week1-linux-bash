@@ -73,4 +73,3 @@ Example cron entry to run the backup daily at 02:00:
 
 ## Author
 Timothy Lowe
-Aspiring DevOps / Cloud Engineer
